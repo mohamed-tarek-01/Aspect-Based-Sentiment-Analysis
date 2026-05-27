@@ -1,0 +1,30 @@
+{
+  "model_name": "roberta-base",
+  "max_length": 96,
+  "batch_size": 16,
+  "num_epochs": 10,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.1,
+  "seed": 42,
+  "val_split": 0.1,
+  "label2id": {
+    "positive": 0,
+    "negative": 1,
+    "neutral": 2
+  },
+  "id2label": {
+    "0": "positive",
+    "1": "negative",
+    "2": "neutral"
+  },
+  "num_labels": 3,
+  "output_dir": "./absa-model",
+  "class_weights": [
+    1.1381,
+    1.2958,
+    0.7409
+  ]
+}
