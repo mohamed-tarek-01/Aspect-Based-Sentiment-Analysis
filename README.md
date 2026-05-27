@@ -38,7 +38,7 @@ The new sentiment prediction and confidence breakdown for the updated aspect.
 1. Clone the repository:
    ```bash
    git clone https://github.com/mohamed-tarek-01/Aspect-Based-Sentiment-Analysis.git
-   cd Cloud-Project
+   cd Aspect-Based-Sentiment-Analysis
    ```
 
 2. Install the required dependencies:
